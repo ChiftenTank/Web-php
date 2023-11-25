@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body background="picture/background/backg.jpg">
+		<?php include("BootCss.php"); ?>
+		
+	<div class="container mt-3" align="center" >
+			<div class="row-cols-1">
+				<div class="col-md-6" align="center">
+					<form class="form-inline" method="post" action="/action_page.php">
+                      <table class="table table-hover" border="0" cellpadding="5" cellspacing="5" align="center" style="color: aqua;margin-top: 60px;background-color: blueviolet">
+                         <thead class="thead-dark ">
+                              <tbody>
+                                <tr>
+                                  <td><label>Name</label></td>
+                                  <td><input type="text" placeholder="Enter Your Name" required></td>
+                                </tr>
+                                <tr>
+                                  <td><label>Gender</label></td>
+                                  <td><input type="radio" name="demo" required>&nbsp;Woman
+									&nbsp;<input type="radio" name="demo">&nbsp;Man</td>
+                                </tr>
+                                <tr>
+                                  <td><label>Email</label></td>
+                                  <td><input type="email"></td>
+                                </tr>
+                                <tr>
+                                  <td><label>Password</label></td>
+                                  <td><input type="password"></td>
+                                </tr>
+                                <tr>
+                                  <td><label>Confirm Password</label></td>
+                                  <td><input type="password"></td>
+                                </tr>
+                                <tr>
+                                  <td><label>Education</label></td>
+                                  <td><select>
+									  <option>Bachelor</option>
+									  <option>Master</option>
+									  <option>PHD</option>
+									  </select></td>
+                                </tr>
+                                <tr>
+                                  <td><label>City</label></td>
+                                  <td><select>
+									  <optgroup label="Canada" onBlur="as">
+									  <option>Vancouver</option>									 <option>Otawa</option>	
+				                   	  <option>Torento</option>									
+									  </optgroup>
+									  <optgroup label="USA">
+									  <option>New York</option>									 <option>Houston</option>	
+				                   	  <option>Washington D.C</option>	
+									  <optgroup label="Germany">
+									  <option>Berlin</option>									 <option>Dusseldorf</option>	
+				                   	  <option>Munich</option>									
+									  </optgroup>
+									  </optgroup>
+									  </select></td>
+                                </tr>
+								  <tr>
+                                  <td><label>Avatar</label></td>
+                                  <td><input type="file"></td>
+                                </tr>
+                                <tr>
+                                  <td></td>
+							<td><button class="btn btn-outline-success btn-lg btn-block" role="button" style="color: black;font-style: italic;font-size: 20px">Register</td>
+                                </tr>
+                              </tbody>
+						   </thead>
+						</table>
+                         <div class="alert alert-success alert-dismissible">
+						  <button type="button" class="close" data-dismiss="alert">&times;</button>
+                          <strong>Success!</strong> You Have Registered Successful</div>
+	              </form>
+				</div>
+			</div>	
+	    </div>
+</body>
+</html>

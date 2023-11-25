@@ -1,0 +1,19 @@
+/* CSS Document */
+
+body{
+	background:url("../picture/background/backg.jpg") ;
+}
+
+#demo{
+	opacity: .6;
+}
+#demo:hover{
+	opacity: 1;
+	border-radius: 25%;
+	border:#000000;
+}
+
+.carousel-inner img {
+    width: 800px;
+    height: 400px;
+}
